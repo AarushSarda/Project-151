@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"> </script>
+        <script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"> </script>
+        <script src="base.js"></script>
+    </head>
+
+    <body>
+        <a-scene>
+
+            <a-camera position="0 2 5"> </a-camera>
+
+            <a-assets>
+                <a-asset-item id="car" src="Assets/scene.gltf"></a-asset-item>
+            </a-assets>
+
+            <a-entity id="base" base></a-entity>
+            ss
+            <a-entity id="car-model" gltf-model="#car" position="0 2.1 0"> </a-entity>
+
+        </a-scene>
+    </body>
+
+</html>
